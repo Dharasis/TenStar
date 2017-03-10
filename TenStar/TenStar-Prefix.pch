@@ -1,0 +1,89 @@
+//
+//  TenStar-Prefix.pch
+//  TenStar
+//
+//  Created by Dharasis on 25/06/16.
+//  Copyright © 2016 Dharasis. All rights reserved.
+//
+
+#ifndef TenStar_Prefix_pch
+#define TenStar_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TenStar_Prefix_pch */
+
+#import "UIView+Toast.h"
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define screenRect [[UIScreen mainScreen] bounds]
+#define FONT_NAME @"Verdana";
+
+#define saudiLatitude 24.865454
+#define saudiLongitude 45.827330
+
+#define saudiNorthWestLatitude 34.048928
+#define saudiNorthWestLongitude 31.357199
+
+#define saudiNorthEastLatitude 29.76799
+#define saudiNorthEastLongitude 48.462989
+
+#define saudiSouthWestLatitude  15.959156
+#define saudiSouthWestLongitude 41.910893
+
+#define saudiSouthEastLatitude  20.235782
+#define saudiSouthEastLongitude 57.139789
+
+#define saudiCenterNorthWestLatitude 24.670191
+#define saudiCenterNorthWestLongitude 42.96985
+
+#define saudiCenterNorthEastLatitude 25.387565
+#define saudiCenterNorthEastLongitude 47.183315
+
+
+#define saudiCenterSouthWestLatitude 23.085395
+#define saudiCenterSouthWestLongitude 42.063614
+
+#define saudiCenterSouthEastLatitude 23.557710
+#define saudiCenterSouthEastLongitude 47.087305
+
+
+#define saudiNorthLatitude 28.561041
+#define saudiNorthLongitude 40.905918
+
+
+#define saudiSouthLatitude 19.184760
+#define saudiSouthLongitude 46.420409
+
+
+#define saudiWestLatitude 23.728832
+#define saudiWestLongitude 40.640724
+
+
+#define saudiEastLatitude  24.894046
+#define saudiEastLongitude 48.858497
+
+
+
+#define loginServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/login"
+#define signUpServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/signup"
+#define listOfDoorServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/doors"
+#define changePasswordServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/changepass"
+#define updateProfileServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/user_update"
+#define fetchProfileServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/userdetails"
+#define listOfAllDoorServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/doors"
+#define fetchDoorDetailsUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/doordetails"
+#define fetchClientDetailsServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/listofclients"
+#define fetchSupervisorDetailsServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/listofsupervisor"
+#define addDoorServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/door_add"
+#define uploadProfilePhotoService @"http://www.teachologist.com/doormaintain/index.php/api/apis/changeprofilepic"
+#define updateDoorServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/door_update"
+#define notificationServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/notifications"
+#define notificationReadServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/notifications_long"
+#define deleteNotificatonServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/notification_delete"
+#define sosService @"http://www.teachologist.com/doormaintain/index.php/api/apis/save_sos"
+#define deleteDoorServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/door_delete"
+#define doorMaintenanceServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/door_maintainence"
+#define commentServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/save_comment"
+#define viewDoorMaintenanceServiceUrl @"http://www.teachologist.com/doormaintain/index.php/api/apis/door_maintainence_details"
+#define doorStatusService @"http://www.teachologist.com/doormaintain/index.php/api/apis/changestatus"
